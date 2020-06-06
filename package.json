@@ -1,0 +1,22 @@
+{
+  "name": "typescript-webpack",
+  "version": "1.0.0",
+  "description": "1. In this serie we use webpack for compiling .ts files to .js files.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "webpack-dev-server": "^3.11.0"
+  }
+}
